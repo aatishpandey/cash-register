@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-color: #FEE2E2;
+}
+
+:root{
+    --primary-color : #F87171;
+}
+
+.main-heading{
+    color: var(--primary-color);
+    padding-top: 2.5rem;
+}
+
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.description{
+    padding-bottom: 1.5rem;
+}
+
+.bill-amount{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--primary-color);
+    height: 5vh;
+    width: 300px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.cash-given{
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--primary-color);
+    height: 5vh;
+    width: 300px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.label-input{
+    /* padding-top: 5rem; */
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.btn-check{
+    background-color: var(--primary-color);
+    width: 100px;
+    height: 6vh;
+    border-radius: 10px;
+    border: #EF4444;
+    color: white;
+    font-size: 1.2rem;
+}
