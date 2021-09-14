@@ -7,7 +7,7 @@ body{
     --primary-color : #F87171;
 }
 
-.main-heading{
+#main-heading{
     color: var(--primary-color);
     padding-top: 2.5rem;
 }
@@ -23,11 +23,11 @@ body{
     text-align: center;
 }
 
-.description{
+#description{
     padding-bottom: 1.5rem;
 }
 
-.bill-amount{
+#bill-amount{
     display: block;
     margin: auto;
     margin-top: 1rem;
@@ -39,7 +39,7 @@ body{
     outline: none;
 }
 
-.cash-given{
+#cash-given{
     display: block;
     margin: auto;
     margin-top: 0.5rem;
@@ -57,7 +57,7 @@ body{
     font-weight: bolder;
 }
 
-.btn-check{
+#btn-check{
     background-color: var(--primary-color);
     width: 100px;
     height: 6vh;
