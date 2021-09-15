@@ -66,3 +66,18 @@ body{
     color: white;
     font-size: 1.2rem;
 }
+
+th,td{
+    border: 1px solid var(--primary-color);
+    width: 100px;
+    height: 30px;
+    /* border-collapse: collapse; */
+}
+
+#change-table{
+    margin: auto;
+    margin-top: 1.5rem;
+    border: 1px solid var(--primary-color);
+    border-collapse: collapse;
+    width: 80%;
+}
