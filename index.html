@@ -15,10 +15,10 @@
         <p id="description">Enter the bill amount and cash given by the customer and know minimum number of notes to return</p>
 
         <label class="label-input" for="bill-amount">Bill Amount:</label>
-        <input type="number" id="bill-amount">
+        <input type="number" id="bill-amount" min=0 oninput="validity.valid||(value='');">
 
         <label class="label-input" for="cash-given">Cash Recieved:</label>
-        <input type="number" id="cash-given">
+        <input type="number" id="cash-given" min=0 oninput="validity.valid||(value='');">
 
         <button id="btn-check">Check</button>
 
